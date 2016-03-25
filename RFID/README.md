@@ -20,10 +20,12 @@ To encode the information from the RFID , we separate the data into four parts (
 
 
 ## The result 
-1. READER  to TAG	 :  (ACK = 0 1)  0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+1. READER  to TAG (ACK = 01)	:  0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+
 
 2. TAG to READER	 : 1	0	1	0	v	1	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	0	0	1	1	0	0	0	1	0	1	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	1	1	0	0	1
 
-3.  READER to TAG	 : (Req_RN= 1 1 0 0 0 0 0 1) 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	0	1	0	1	0	1	1
+3.  READER to TAG (Req_RN= 1 1 0 0 0 0 0 1) : 1	1	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	0	1	0	1	0	1	1
+
 	
 4. TAG to READER	 :1	0	1	1	v	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	0	0	0	0	1	1	0	0	0	1	0	1	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	1	1	0	0	1
