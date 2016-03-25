@@ -15,7 +15,7 @@ Name :
 To encode the information from the RFID , we separate the data into four parts (figure above), We use Matlab to decode the RFID data, there are 4 parts of the graph that have to be decoded 
 
 ##Details of the code
-Reader_to_Tag.m is one file that can be run once and can give two bitstreams as output. The variables 'bitstream' and 'bitstream1' contain the value of the two bitstreams. 'Tag_To_Reader_1.m' contains the code for the first tag. The bitstream is stored in the variable 'streamm'.'Tag_To_Reader_2.m' contains the code for the second tag. The bitstream is stored in the variable 'streamm'. This file is same as 'Tag_To_Reader_1' except that the starting point for the second Tag signal has been changed. The 'signal' file is the same file that was given in class to test our program.
+Reader_to_Tag.m is one file that can be run once and can give two bitstreams as output. This output contains the bitstreams of the two signals from the reader to the Tag. The variables 'bitstream' and 'bitstream1' contain the value of the two bitstreams. 'Tag_To_Reader_1.m' contains the code for the first tag signal. The bitstream is stored in the variable 'streamm'.'Tag_To_Reader_2.m' contains the code for the second tag signal. The bitstream is stored in the variable 'streamm'. This file is same as 'Tag_To_Reader_1' except that the starting point for the second Tag signal has been changed. The 'signal' file is the same file that was given in class to test our program.
 
 ## The Result 
 1. READER  to TAG (ACK = 01)	:  0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
