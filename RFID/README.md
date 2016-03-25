@@ -1,3 +1,5 @@
+
+
 # Wireless Networking RFID Assignment 
 Name : 
 1. Pranav Sailesh Mani (4508467)
@@ -5,6 +7,11 @@ Name :
 
 
 ## Description 
+
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/17114181/14053359/fe9468d6-f2d0-11e5-8b24-3182c353abcb.jpg">
+</p>
+
 To encode the information from the RFID , we separate the data into four parts (figure above), We use Matlab to decode the RFID data, there are 4 parts of the graph that have to be decoded.
 
 
